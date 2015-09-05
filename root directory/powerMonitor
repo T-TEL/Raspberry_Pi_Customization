@@ -1,0 +1,11 @@
+#!/bin/sh
+#!/usr/bin/php
+read file_facilityID < /boot/facilityID.txt
+
+timestamp() {
+  date +"%Y-%m-%d %T"
+}
+echo "$(timestamp) $*"
+echo "$(timestamp) $*" >> /root/power.log
+
+/usr/bin/php /root/save_logs/savelogIntodb.php "power_status" "$*" $file_facilityID
