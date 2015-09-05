@@ -10,3 +10,8 @@ If you already have a raspberry pi installed and you still want to add these fun
 If you want an already configured image of this solution. Download the 4GB raspbien image from [here](http://). After download, continue by reading "Configuring Solution Image".
 
 # Required Hardware
+Raspberry Pi 2
+Real Time Clock (attached to Pi)
+External UPS (for Raspberry Pi and Router) - With USB Support
+TP-Link 3G Router (MR3420)
+3G Modem (via Router as fail-over)
