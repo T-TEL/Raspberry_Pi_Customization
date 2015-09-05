@@ -1,2 +1,3 @@
-# raspberry_pi_ups_configuration
-Configuring the raspberry pi to log Sollatek UPS events
+# Quick Start
+To get started quickly with using this configuration, follow the direction over [here](https://www.raspberrypi.org/downloads/raspbian/) to get a raspberry pi (raspbian) image and installation guide.
+
