@@ -11,7 +11,11 @@ If you want an already configured image of this solution. Download the 4GB raspb
 
 # Required Hardware
 Raspberry Pi 2
+
 Real Time Clock (attached to Pi)
+
 External UPS (for Raspberry Pi and Router) - With USB Support
+
 TP-Link 3G Router (MR3420)
+
 3G Modem (via Router as fail-over)
