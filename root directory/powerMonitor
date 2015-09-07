@@ -2,6 +2,7 @@
 #!/usr/bin/php
 read file_facilityID < /boot/facilityID.txt
 
+
 timestamp() {
   date +"%Y-%m-%d %T"
 }
