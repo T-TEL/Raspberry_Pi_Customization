@@ -17,6 +17,9 @@ Default =(user:pi , pswd : raspberry)
 9. Next, declare sollatek as UPS in **/etc/nut/ups.conf** to be used with the **blazer_usb** driver.
 
 *[sollatek]*
+
 *driver = blazer_usb*
+
 *port = /dev/ttyS0*
+
 *desc = "Sollatek 850VA UPS" *
