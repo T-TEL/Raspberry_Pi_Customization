@@ -14,8 +14,11 @@ Bus 003 Device 002: ID 0665:5161 Cypress Semiconductor USB to Serial
 **sudo sh -c 'echo "nameserver 8.8.8.8" >> /etc/resolv.conf'** then run sudo apt-get update again then continue.
 8. Now install NUT by running **sudo apt-get nut**
 9. Next, declare sollatek as UPS in **/etc/nut/ups.conf** to be used with the **blazer_usb** driver.
-**
-[sollatek]
+
+**[sollatek]
+
 driver = blazer_usb
+
 port = /dev/ttyS0
+
 desc = "Sollatek 850VA UPS" **
