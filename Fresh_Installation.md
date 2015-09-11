@@ -22,7 +22,7 @@ Default =(user:pi , pswd : raspberry)
 
 *port = /dev/ttyS0*
 
-*desc = "Sollatek 850VA UPS" *
+*desc = "Sollatek 850VA UPS"*
 
 10. Now we can set NUT to run in standalone mode. Setting it to standalone mode means that its used on the computer which the UPS connected at the same time be able to monitor the UPS on the same computer. You do this by editing /etc/nut/nut.conf and updating the following.
 
