@@ -4,7 +4,7 @@
 2. Power up the UPS and raspberry pi.
 3. Login to the raspberry pi with your credentials. 
 Default =(user:pi , pswd : raspberry)
-4. ####sudo su####  to change to root user 
+4. *sudo su* to change to root user 
 5. Use lsusb to view devices connected to the usb port 
 Bus 005 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
 Bus 003 Device 002: ID 0665:5161 Cypress Semiconductor USB to Serial
