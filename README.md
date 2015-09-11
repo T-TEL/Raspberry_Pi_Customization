@@ -15,7 +15,7 @@ Raspberry Pi 2
 
 Real Time Clock (attached to Pi)
 
-External UPS (for Raspberry Pi and Router) - With USB Support
+External UPS (for Raspberry Pi and Router) - Sollatek With USB Support
 
 TP-Link 3G Router (MR3420)
 
