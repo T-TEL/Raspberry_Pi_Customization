@@ -49,8 +49,11 @@ The number 3493 defines the port on our localhost.
 
 
 *[monuser]*
+
 *password = your_ups_password*
+
 *allowfrom = localhost*
+
 *upsmon master*
 
 
