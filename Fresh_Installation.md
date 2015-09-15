@@ -28,3 +28,35 @@ Default =(user:pi , pswd : raspberry)
 
 MODE=standalone 
 
+
+11. Let us now bind a listening port to our LAN interface to allow upsd (network daemon) monitor to communicate with NUT server. Edit the ……. file by adding 
+LISTEN 127.0.0.1 3493
+
+The number 3493 defines the port on our localhost.
+
+12. Permissions for upsd must be set as bellow. 
+
+[admin]
+
+password = your_own_password
+
+action = set
+
+instcmds = ALL
+
+
+
+[monuser]
+
+password = your_ups_password
+
+allowfrom = localhost
+
+upsmon master
+
+
+13. Configure the UPS monitoring daemon upsmon to be able to communicate with UPS connected to the machine. Modify /etc/nut/upsmon.conf as follows:
+
+MONITOR sollatek@localhost 1 upsmon your_password master
+
+
