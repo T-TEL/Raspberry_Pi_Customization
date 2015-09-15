@@ -36,26 +36,28 @@ The number 3493 defines the port on our localhost.
 
 12. Permissions for upsd must be set as bellow. 
 
-[admin]
+*[admin]*
 
-password = your_own_password
+*password = your_own_password*
 
-action = set
+*action = set*
 
-instcmds = ALL
+*instcmds = ALL*
 
 
 
-[monuser]
 
-password = your_ups_password
 
-allowfrom = localhost
+*[monuser]*
 
-upsmon master
+*password = your_ups_password*
+
+*allowfrom = localhost*
+
+*upsmon master*
 
 
 13. Configure the UPS monitoring daemon upsmon to be able to communicate with UPS connected to the machine. Modify /etc/nut/upsmon.conf as follows:
 
-MONITOR sollatek@localhost 1 upsmon your_password master
+*MONITOR sollatek@localhost 1 upsmon your_password master*
 
