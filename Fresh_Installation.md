@@ -59,4 +59,3 @@ upsmon master
 
 MONITOR sollatek@localhost 1 upsmon your_password master
 
-
