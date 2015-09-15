@@ -44,7 +44,11 @@ The number 3493 defines the port on our localhost.
 
 *instcmds = ALL*
 
+.
 
+.
+
+.
 
 
 
